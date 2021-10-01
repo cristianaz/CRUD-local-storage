@@ -3,7 +3,7 @@ var indiceEditar = 0;
 $(document).ready(function () {
 
     var localSFrases = localStorage.getItem('frases');
-  if(localFrases && localFrases.length > 0) {
+  if(localSFrases && localSFrases.length > 0) {
         frases = JSON.parse(localSFrases);
         mostrarFrases();
     }
